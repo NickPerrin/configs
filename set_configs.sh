@@ -2,7 +2,7 @@
 
 # set each of the config files known by this repo
 shopt -s dotglob 
-echo "updating files"
+echo "updating system files"
 
 # Copy config files from the repo to the system 
 for file in mappings/*; do

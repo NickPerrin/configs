@@ -1,7 +1,7 @@
 #!/bin/bash
 
 shopt -s dotglob 
-echo "updating files"
+echo "updating repo files"
 
 # Copy config files on the system into the repo
 for file in mappings/*; do
