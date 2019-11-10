@@ -12,7 +12,6 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }  " code completion
 
 call plug#end()
 
-
 "
 " Tabs as 4 spaces
 "
@@ -23,14 +22,20 @@ set expandtab
 "
 " Disable arrow keys
 "
-"noremap <up>    <nop>
-"noremap <down>  <nop>
-"noremap <left>  <nop>
-"noremap <right> <nop>
-"noremap <up>    <nop>
-"noremap <down>  <nop>
-"noremap <left>  <nop>
-"noremap <right> <nop>
+
+
+inoremap <C-k>   <up>
+inoremap <C-j>   <down>
+
+noremap <up>     <nop>
+noremap <down>   <nop>
+noremap <left>   <nop>
+noremap <right>  <nop>
+
+inoremap <up>    <nop>
+inoremap <down>  <nop>
+inoremap <left>  <nop>
+inoremap <right> <nop>
 
 "
 " Enable absolute line numbers
