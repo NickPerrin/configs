@@ -9,6 +9,7 @@ Plug 'bling/vim-airline'                                       " better tab line
 Plug 'racer-rust/vim-racer'                                    " rust auto-complete
 Plug 'rust-lang/rust.vim'                                      " rust support
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }  " code completion
+Plug 'rstacruz/vim-closer'                                     " Auto close brackets on enter
 
 call plug#end()
 
