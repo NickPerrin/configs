@@ -20,6 +20,6 @@ export PATH
 alias vim="nvim"
 alias vi="nvim"
 alias lsl="ls -l"
-# alias grep="rg"
+alias grep="rg"
 
 #export RUST_SOURCE_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
