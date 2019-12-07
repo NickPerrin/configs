@@ -29,5 +29,9 @@ alias vim="nvim"
 alias vi="nvim"
 alias lsl="ls -l"
 alias grep="rg"
+alias suod="sudo"
+alias sduo="sudo"
+alias sdou="sudo"
+
 
 export RUST_SOURCE_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
