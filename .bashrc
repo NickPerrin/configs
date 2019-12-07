@@ -22,6 +22,8 @@ PATH="$HOME/.cargo/bin:$GOPATH/bin:/usr/local/go/bin:$HOME/scripts:$PATH"
 PATH="$HOME/.cargo/bin:$PATH"
 export PATH
 
+source $HOME/.cargo/env
+
 # alias
 alias vim="nvim"
 alias vi="nvim"
