@@ -3,6 +3,7 @@
 "
 call plug#begin('~/.local/share/nvim/plugged')
 
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }             " go support
 Plug 'scrooloose/nerdTree'                                     " directory tree
 Plug 'ctrlpvim/ctrlp.vim'                                      " fuzzy finder
 Plug 'bling/vim-airline'                                       " better tab line
@@ -24,7 +25,6 @@ set expandtab
 " Disable arrow keys
 "
 
-
 inoremap <C-k>   <up>
 inoremap <C-j>   <down>
 
@@ -42,6 +42,12 @@ inoremap <right> <nop>
 " Enable absolute line numbers
 "
 set number
+
+"
+" Change line number color
+"
+highlight LineNr ctermfg=6
+
 
 "
 " Open NerdTree with <C-n>
@@ -63,3 +69,4 @@ let g:rustfmt_autosave = 1
 " Deoplete
 "
 let g:deoplete#enable_at_startup = 1
+
