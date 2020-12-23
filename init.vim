@@ -5,7 +5,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }             " go support
 Plug 'scrooloose/nerdTree'                                     " directory tree
-Plug 'ctrlpvim/ctrlp.vim'                                      " fuzzy finder
 Plug 'bling/vim-airline'                                       " better tab line
 Plug 'racer-rust/vim-racer'                                    " rust auto-complete
 Plug 'rust-lang/rust.vim'                                      " rust support
@@ -24,7 +23,6 @@ set expandtab
 "
 " Disable arrow keys
 "
-
 inoremap <C-k>   <up>
 inoremap <C-j>   <down>
 
@@ -70,3 +68,11 @@ let g:rustfmt_autosave = 1
 "
 let g:deoplete#enable_at_startup = 1
 
+"
+" vim-go
+"
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_parameters = 1
+let g:go_highlight_types = 1
