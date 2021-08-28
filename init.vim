@@ -115,7 +115,7 @@ nvim_lsp.pyright.setup {
 -- elixir
 nvim_lsp.elixirls.setup {
     on_attach = on_attach,
-    cmd = { "/path/to/elixir-ls/language_server.sh" },
+    cmd = { "/usr/bin/lsp_client/elixir/language_server.sh" },
 }
 
 EOF
