@@ -1,0 +1,7 @@
+alias vim="nvim"
+alias vi="nvim"
+alias lsl="ls -l"
+alias grep="rg"
+alias tls="tmux ls"
+alias tkill="tmux kill-session -t"
+alias tattach="tmux attach-session -t"
